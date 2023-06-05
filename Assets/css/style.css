@@ -1,0 +1,129 @@
+/* font-family: 'Nunito', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
+
+/* Common CSS */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    max-width: 85%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* CSS starts */
+header{
+    background-color: #fff;
+}
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 74px;
+}
+
+.logo a{
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #012970;
+    font-family: "Nunito", sans-serif;
+}
+.logo img{
+    max-height: 40px;
+    width: 21px;
+    height: 25px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;
+}
+
+.menu-item a{
+    padding: 10px 13px 10px 13px;
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #013289;
+    white-space: nowrap;
+    transition: 0.3s;
+}
+.menu-item i{
+    font-size: 12px;
+}
+.btn a{
+    padding: 0;
+    background: #4154f1;
+    padding: 8px 20px;
+    margin-left: 15px;
+    border-radius: 4px;
+    color: #fff;
+}
+.banner{
+    background-image: url("../img/hero-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 575px;
+}
+.banner-content{
+    display: flex;
+    padding-top: 30px;
+}
+.banner-item{
+    width: 50%;
+    padding: 30px 10px 30px 0px;
+}
+.banner-item h1{
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    color: #012970;
+    font-family: "Nunito", sans-serif;
+}
+.banner-item p{
+    color: #444444;
+    margin: 15px 0 0 0;
+    font-size: 26px;
+    font-family: "Nunito", sans-serif;
+}
+.banner-img{
+    width: 50%;
+}
+.banner-item .btn{
+    display: inline-block;
+    margin-top: 30px;
+    line-height: 0;
+    border-radius: 4px;
+    transition: 0.5s;
+    color: #fff;
+    background: #4154f1;
+    box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4);
+}
+.banner-item .btn a{
+    padding: 15px 30px;
+    margin: 0px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.banner-item .btn i{
+    margin-left: 2px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.banner-item .btn a:hover .banner-item .btn i{
+    margin-left: 5px;
+}
